@@ -1,1 +1,1 @@
-# freeCodeCamp LEARN
+# freeCodeCamp LEARNING
