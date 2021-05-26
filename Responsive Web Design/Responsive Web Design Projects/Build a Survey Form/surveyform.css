@@ -1,0 +1,76 @@
+body {
+    background-color: grey;
+    background-image: linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ),url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: white;
+    margin: 0;
+  }
+.text-center {
+    text-align: center;
+}
+p {
+    font-size: 20px;
+}
+.form-group {
+    margin: 0 auto 10px auto;
+    padding: 10px;
+}
+  
+#survay-form {
+    background-color: #1b1b32;
+    padding: 40px;
+    opacity: 0.9;
+    border-radius: 10px;
+    max-width: 650px;
+    margin: 50px auto 0px auto;
+} 
+.input-format {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+} 
+.input-textarea {
+    min-height: 80px;
+    width: 100%;
+    padding: 10px;
+    resize: vertical;
+}
+.dropdow-format {
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 5px;
+} 
+.submit-button {
+    display: block;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background: green;
+    color: inherit;
+    border-radius: 10px;
+    cursor: pointer;
+}
+label {
+    display: flex !important;
+    align-items: left;
+    font-size: 16px;
+}
+input.input-radio {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+input.input-checkbox {
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+}
