@@ -1,0 +1,204 @@
+body {
+    margin: 0;
+}
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #be3144;
+    box-shadow: 0 2px 0 rgb(0 0 0 / 40%);
+    align-items: flex-end;
+    margin: auto;
+  }
+.nav-list {
+    display: flex;
+    margin-right: 2rem;
+    justify-content: flex-end;
+    align-content: flex-end;
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.nav-list a:hover{
+    background: #45567d;
+}
+#navbar>li {
+    list-style-type: none;
+}
+.nav-list>li>a {
+    display: block;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+#welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+}
+#welcome-section>h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(192, 192, 192);
+    font-size: 60px;
+    line-height: 0;
+}
+#welcome-section>p {
+    font-family: "Courier New", Courier, monospace;
+    color: rgb(153, 56, 56);
+    font-size: 2.5rem;
+    font-weight: 200;
+    font-style: italic;
+    margin-top: 0;
+    line-height: 1;
+}
+.project-section {
+    background-color: #45567d;
+    text-align: center;
+}
+.projects-section-header {
+    color: white;
+    max-width: 600px;
+    margin: 0 auto 4rem auto;
+    padding-top: 50px;
+    line-height: 1.5;
+    border-bottom: 0.1rem solid white;
+    font-size: 45px;
+}
+.project-gird {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+}
+.project-title {
+    background-color: #2c323a;
+    min-height: 300px;
+    height: 100%;
+    max-width: 320px;
+    width: 100%;
+    margin: auto;
+    box-shadow: 1px 1px 2px rgb(0 0 0 / 50%);
+}
+.project-title>img {
+    width: 100%;
+    height: calc(100% - 3rem);
+    object-fit: cover;
+}
+.project-title>p {
+    font-family: 'Poppins', sans-serif;         
+    color: white;
+    font-size: 1rem;
+    align-items: center;
+    margin-top: 10px;
+}
+.project-section :hover {
+    text-decoration: none;
+}
+.project-title:hover .code{
+    color: #ff6832;    
+}
+
+.btn-show-all {
+    font-size: 25px;
+    background: #2c323a;
+    color: white;
+    margin-bottom: 60px;
+    text-align: center;
+    text-decoration: none;
+    padding-right: 10px;
+ } 
+.btn-show-all:hover {
+    background: #be3144;
+}
+.btn-show-all  i {
+    color: seashell;
+    margin-left: 10px;
+    transform: translateX(0);
+    transition-property: 10px;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    transition-delay: 0s;
+}
+.btn-show-all:hover i {
+    transform: translateX(2px);
+} 
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 96.6%;
+    height: 80vh;
+    padding: 0 2rem;
+    background: #2c323a;
+}
+.contact-section-header>p {
+    font-style: italic;
+    color: seashell;
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+    line-height: 0;
+}
+.contact-section-header>h2 {
+    color: seashell;
+    font-size: 60px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    line-height: 0;
+}
+.contact-links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+}
+.contact-links a{
+    color: seashell;
+    text-decoration: none;
+}
+.btns {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.contact-details {
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 1px #1f1f1f;
+    transition: transform 0.3s ease-out;
+}
+.contact-details:hover {
+    transform: translateY(8px);
+    color: seashell;
+}
+#footer {
+    font-weight: 300;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    background: #303841;
+    border-top: 4px solid red;
+}
+footer>p {
+    color: white;
+    margin: 20px;
+    font-size: 20px;
+}
