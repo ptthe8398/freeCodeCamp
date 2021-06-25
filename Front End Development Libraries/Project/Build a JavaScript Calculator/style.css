@@ -1,0 +1,69 @@
+.container {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gird {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "dis dis dis dis"
+    "AC AC division multiply"
+    "seven eight nine minus"
+    "four five six sum"
+    "one two three equal"
+    "zero zero dot equal";
+}
+
+.padButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px;
+    background-color: gray;
+    color: white;
+    border: 2px solid black;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.dis {
+    grid-area: dis;
+    background-color: black;
+    text-align: right;
+    font-size: 20px;
+}
+
+.zero {
+    grid-area: zero;
+}
+
+.equal {
+    grid-area: equal;
+    background-color: rgb(39, 58, 116);
+}
+.AC {
+    grid-area: AC;
+    background-color: rgb(126, 34, 34);
+}
+.dark-gray {
+    background-color: #333;
+}
+.total {
+    padding: 5px 20px;
+    color: yellow;
+}
+.dis input {
+    width: 80%;
+    color: white;
+    padding: 5px 20px;
+    text-align: right;
+    background-color: black;
+}
+.padButton:hover {
+    border: 1px solid white;
+    color: rgb(0, 255, 0);
+}
